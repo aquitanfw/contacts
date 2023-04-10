@@ -63,88 +63,6 @@
 
 @import './global.css';
 
-.contacts-main-address {
-    max-width: 700px;
-    width: 100%;
-    -webkit-box-shadow: var(--shadow);
-            box-shadow: var(--shadow);
-    padding: 30px 20px;
-    border-radius: 5px;
-    margin: 0 auto;
-    z-index: 999999;
-    position: relative;
-    background-color: #fff;
-    margin-top: -50px;
-}
-
-.map img {
-    width: 100%;
-}
-
-.contacts-main-map {
-    margin-bottom: 30px;
-}
-
-.contacts-card-heading {
-    margin: 0 auto;
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.map img {
-    z-index: 1;
-}
-
-.contacts-main-address__img {
-    max-width: 180px;
-}
-.contacts-main-address__img img {
-    width: 100%;
-}
-
-.contacts-main-address__info {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 30px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-}
-
-.contacts-main-data__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 10px;
-    font-size: 14px;
-}
-.contacts-main-data__item a {
-    color: var(--dark);
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    transition: all .2s linear;
-}
-.contacts-main-data__item a:hover {
-    color: var(--blue);
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    transition: all .2s linear;
-}
-
-.contacts-main-data {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 20px;
-
-}
 .contacts-dealers-item {
     background: #FFFFFF;
     -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
@@ -292,4 +210,115 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     gap: 30px;
+}
+
+.contacts-dealers-data__roles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+}
+.contacts-dealers-data__roles div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+}
+
+.contacts-dealers-data__roles div img {
+    height: 20px;
+    margin-right: 10px;
+}
+.contacts-main-address {
+    max-width: 700px;
+    width: 100%;
+    -webkit-box-shadow: var(--shadow);
+            box-shadow: var(--shadow);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    z-index: 999999;
+    position: relative;
+    background-color: #fff;
+    margin-top: -50px;
+}
+
+.map img {
+    width: 100%;
+}
+
+.contacts-main-map {
+    margin-bottom: 30px;
+}
+
+.contacts-card-heading {
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.map img {
+    z-index: 1;
+}
+
+.contacts-main-address__img {
+    max-width: 180px;
+}
+.contacts-main-address__img img {
+    width: 100%;
+}
+
+.contacts-main-address__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.contacts-main-data__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+.contacts-main-data__item a {
+    color: var(--dark);
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.contacts-main-data__item a:hover {
+    color: var(--blue);
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.contacts-main-data {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+
 }
